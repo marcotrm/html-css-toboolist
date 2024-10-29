@@ -7,7 +7,7 @@
 
  body{
     background-color: #F6F8F9;
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
  }
  header{
     display: flex;
@@ -19,7 +19,6 @@
     padding-left: 25px;
 }
 main{
-    height: 40px;
     width: 700px;
     background-color: white;
     margin: 30px auto;
@@ -32,6 +31,7 @@ main{
     font-size: 17px;
     color: white;
     cursor: pointer;
+    padding: 5px;
 }
 .add-section{
     background-color: white;
@@ -40,6 +40,7 @@ main{
     color: #C4CBD0;
     cursor: pointer;
     margin-left: -30px;  
+    padding: 5px;
 }
 section{
     height: 600px;
@@ -50,5 +51,30 @@ section{
 .new-task{
     font-size: 25px;
     margin-left: 70px;
-    padding-top: 30;
+    padding-top: 40px;
+}
+
+.completed{
+    width: 22px;
+    border-radius: 100%;
+    display: inline-block;
+    border: 1px solid green;
+    text-align: center;
+    margin-left: 70px;
+}
+.description{
+    margin-left: 70px;
+    font-size: 20px;
+}
+.btn-blue{
+    width: 65px;
+    height: 20px;
+    background-color: #14AAF5;
+    border-radius: 20%;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+div{
+    padding-top: 20px;
 }
