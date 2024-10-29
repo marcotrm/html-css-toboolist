@@ -39,6 +39,16 @@ main{
     font-size: 17px;
     color: #C4CBD0;
     cursor: pointer;
-    margin-left: -30px;
-    
+    margin-left: -30px;  
+}
+section{
+    height: 600px;
+    width: 700px;
+    background-color: white;
+    margin: -29px auto;
+}
+.new-task{
+    font-size: 25px;
+    margin-left: 70px;
+    padding-top: 30;
 }
