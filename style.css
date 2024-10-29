@@ -18,3 +18,27 @@
 .logo{
     padding-left: 25px;
 }
+main{
+    height: 40px;
+    width: 700px;
+    background-color: white;
+    margin: 30px auto;
+}
+.add-task{
+    margin: 10px 40px;
+    background-color: #14AAF5;
+    border: none;
+    border-radius: 10%;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+.add-section{
+    background-color: white;
+    border-radius: 10%;
+    font-size: 17px;
+    color: #C4CBD0;
+    cursor: pointer;
+    margin-left: -30px;
+    
+}
