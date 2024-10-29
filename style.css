@@ -43,7 +43,7 @@ main{
     padding: 5px;
 }
 main{
-    height: 600px;
+    height: 780px;
     width: 700px;
     background-color: white;
     margin: -29px auto;
@@ -143,4 +143,12 @@ div{
     border: none;
     color:  white;
     cursor: pointer
+}
+.first-section{
+    margin-top: 70px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid  #F6F8F9
+}
+section{
+    margin-bottom: 10px;
 }
