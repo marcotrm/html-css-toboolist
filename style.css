@@ -42,7 +42,7 @@ main{
     margin-left: -30px;  
     padding: 5px;
 }
-section{
+main{
     height: 600px;
     width: 700px;
     background-color: white;
@@ -61,6 +61,7 @@ section{
     border: 1px solid green;
     text-align: center;
     margin-left: 70px;
+    color: green;
 }
 .description{
     margin-left: 70px;
@@ -76,5 +77,47 @@ section{
     cursor: pointer;
 }
 div{
-    padding-top: 20px;
+    padding-top: 10px;
+}
+
+.today{
+    font-size: 25px;
+    margin-left: 70px;
+    padding-top: 40px;
+}
+.btn-violet{
+    width: 65px;
+    height: 20px;
+    background-color: #ab5de6;
+    border-radius: 20%;
+    border: none;
+    color:  white;
+    cursor: pointer;
+}
+.uncompleted{
+    width: 22px;
+    border-radius: 100%;
+    display: inline-block;
+    border: 1px solid red;
+    text-align: center;
+    margin-left: 70px;
+    color: red;
+}
+.btn-green{
+    width: 65px;
+    height: 20px;
+    background-color: #2CC6AB;
+    border-radius: 20%;
+    border: none;
+    color:  white;
+    cursor: pointer;
+}
+.btn-orange{
+    width: 65px;
+    height: 20px;
+    background-color: #FF9B00;
+    border-radius: 20%;
+    border: none;
+    color:  white;
+    cursor: pointer
 }
